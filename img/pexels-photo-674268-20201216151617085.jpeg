@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>测试域名过期或被删除 </title>
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      height: 100%;
+    }
+
+    a {
+      color: #00AAE7;
+      text-decoration: none;
+    }
+    
+    .content-wrapper {
+      display: flex;
+      padding-top: 200px;
+      justify-content: center;
+      align-items: center;
+      color: #666;
+    }
+
+    .content {
+      margin-left: 60px;
+    }
+
+    .expire-title {
+      color: #333;
+    }
+
+    .expire-desc {
+      margin-top: 32px;
+      line-height: 1.5;
+    }
+
+    .remark {
+      margin-top: 32px;
+    }
+
+    .remark-content {
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <section class="content-wrapper">
+    <img class="logo" src="niuxiaoqi.svg"/>
+    <div class="content">
+      <div class="expire">
+        <h2 class="expire-title">测试域名过期或被删除</h2>
+        <p class="expire-desc">
+          该测试域名已过期或被删除，测试域名有效期为 30 天，到期会自动回收，如需继续访问资源，请绑定自定义域名访问。
+          <br />
+          请参考
+          <a href="https://developer.qiniu.com/kodo/kb/5158/how-to-transition-from-test-domain-name-to-a-custom-domain-name" target="_blank">“如何从测试域名过渡到自定义域名”</a>
+        </p>
+        <p class="expire-spec">
+          其他使用规范请参考
+          <a href="https://developer.qiniu.com/fusion/kb/1319/test-domain-access-restriction-rules" target="_blank">“测试域名使用规范”</a>
+        </p>
+      </div>
+      <div class="remark">
+        <p class="remark-title">注释：</p>
+        <p class="remark-content">
+          七牛测试域名是用户在创建云存储空间是系统自动生成的七牛域名，以 clouddn.com/qiniucdn.com/qiniudn.com/qnssl.com/qbox.me 等
+          <br />
+          结尾，此类域名仅提供用户测试和体验七牛产品功能，不能用于正式生产环境。
+        </p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
